@@ -18,7 +18,7 @@ jobs:
           if [ "${{ github.event_name }}" = "push" ]; then
             echo "Code was pushed!"
           elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "Manual execution"
+            echo "Manual executions"
           elif [ "${{ github.event_name }}" = "schedule" ]; then
             echo "Running on schedule"
           else
