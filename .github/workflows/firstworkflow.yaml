@@ -1,1 +1,17 @@
+name: First_workFlow
+run-name: "${{github.actor}}'s label workflow Run"
 
+
+on: 
+  push:
+      branches: ["main"]
+  workflow_dispatch:
+
+
+jobs: 
+  echo_: 
+        runs_on: ubuntu_latest
+        steps:
+            - name: echo
+              run: echo "hello world "
+  
