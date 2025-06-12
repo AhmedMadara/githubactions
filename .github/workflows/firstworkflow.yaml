@@ -8,13 +8,13 @@ on:
 
 jobs: 
   hello: 
-    runs_on: ubuntu_latest 
+    runs-on: ubuntu_latest 
     steps:
       - name: Say hello 
         run: echo "Hello World"
 
   bye: 
-    runs_on: ubuntu_latest
+    runs-on: ubuntu_latest
     steps: 
       - name: Say Baye
         run: echo "Bye World"
